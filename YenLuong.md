@@ -11,7 +11,7 @@
     * [Boba Shop Brand Identity Redesign](#logo)
     * [BobyButterman Style Guide Redesign](#styleguide)
     * [Candy Land Weather App - Bringing Sweet Forecasts to Life](#weatherapp)
-    * [Enchanting Goblincore Ceramic Store Website](#webdesgin)
+    * [Enchanting Goblincore Ceramic Store Website](#webdesign)
     * [Kinetic Typography](#animation)
 - [Contact](#contact)
 
@@ -83,14 +83,30 @@ My project endeavors to breathe new life into our boba shop's identity, infusing
 
 ![STYLEGUIDE](project/STYLEGUIDE.pdf)
 
+### Candy Land Weather App - Bringing Sweet Forecasts to Life <a id="weatherapp"></a>
 
+![weatherapp](<project/weather app.jpg>)
 
+This project focuses on designing a weather app for an imaginative land with a Candy Land theme. The app's primary function is to provide daily weather updates while incorporating delightful elements inspired by the enchanting world of candies.
+
+The Candy Land Weather App features a visually appealing interface with vibrant colors, playful icons, and charming candy-themed graphics. Each day, users can access the app to view the current weather status, including temperature, precipitation, wind speed, and more. The design reflects the essence of Candy Land, infusing a sense of joy and whimsy into the weather experience.
+
+Additionally, the app highlights important weather information for the upcoming weekend. Users can easily access forecasts, temperature trends, and other essential details to plan their activities and make the most of their weekends in this imaginary land.
+
+The Candy Land Weather App is designed with user-friendliness in mind, boasting intuitive navigation and a clear presentation of weather data. In summary, our project aims to create an app that combines the practicality of weather updates with the joyous spirit of Candy Land, offering users a sweet and seamless experience in their daily weather adventures.
+
+### Enchanting Goblincore Ceramic Store Website <a id="webdesign"></a>
+
+![web](project/mockup.jpg)
+![web2](project/web-mockup.png)
+
+This project aims to create a captivating and user-friendly website for a ceramic store, taking inspiration from Goblincore's unique design language. The website's goal is to provide visitors with an immersive and enchanting experience that showcases the store's ceramic products.
+
+The website's aesthetic is built on the foundation of Goblincore design language, incorporating elements of whimsy, nature, and fantasy. The design captures the charm and intrigue of Goblincore, creating an engaging atmosphere that resonates with the target audience.
+
+The website's color palette features neutral tones that create a harmonious and earthy ambiance, complementing the ceramic products. Subtle hues and organic textures convey a sense of natural beauty, enhancing the connection to the underlying Goblincore theme.
 
 
 ## Contact <a id="contact"></a>
 
-**Email address:** yl3434@drexel.edu
-
-
-
-
+**Email address:** yl3434@drexel.edu 
