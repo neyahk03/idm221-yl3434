@@ -106,6 +106,11 @@ The website's aesthetic is built on the foundation of Goblincore design language
 
 The website's color palette features neutral tones that create a harmonious and earthy ambiance, complementing the ceramic products. Subtle hues and organic textures convey a sense of natural beauty, enhancing the connection to the underlying Goblincore theme.
 
+### Kinetic Typography <a id="animation"></a>
+
+<video src="project/Teenager%20Dream.mp4" controls title="Title"></video>
+
+
 
 ## Contact <a id="contact"></a>
 
