@@ -12,7 +12,7 @@
     * [BobyButterman Style Guide Redesign](#styleguide)
     * [Candy Land Weather App - Bringing Sweet Forecasts to Life](#weatherapp)
     * [Enchanting Goblincore Ceramic Store Website](#webdesign)
-    * [Kinetic Typography](#animation)
+    * [Kinetic Typography](#kinetic)
 - [Contact](#contact)
 
 ## About me <a id="aboutme"></a>
@@ -106,7 +106,7 @@ The website's aesthetic is built on the foundation of Goblincore design language
 
 The website's color palette features neutral tones that create a harmonious and earthy ambiance, complementing the ceramic products. Subtle hues and organic textures convey a sense of natural beauty, enhancing the connection to the underlying Goblincore theme.
 
-### Kinetic Typography <a id="animation"></a>
+### Kinetic Typography <a id="kinetic"></a>
 
 <video src="project/Teenager%20Dream.mp4" controls title="Title"></video>
 
