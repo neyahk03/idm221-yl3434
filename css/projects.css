@@ -60,6 +60,8 @@ body {
     font-size: 1rem;
 }
 
+
+
 /* nav bar */
 .logo {
     height: 45px;
@@ -86,6 +88,39 @@ body {
     width: 100%;
 }
 
+/* projects */
+h2 {
+    text-align: center;
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.projects {
+
+    border: 5px dashed pink;
+}
+
+img {
+    height: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+} 
+
+.coverpic {
+    border: 1px solid green;
+    margin: 0 auto;
+    min-width: 20rem;
+}
+
+.title, .coverpic{
+    font-family: var(--font-regular);
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
 
 /* menu */
 .menu {
