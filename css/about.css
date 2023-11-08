@@ -1,4 +1,12 @@
 @font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'poppinsregular';
     src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
          url('../fonts/poppins-regular-webfont.woff') format('woff');
@@ -16,6 +24,15 @@
 
 }
 
+@font-face {
+    font-family: 'rubiklight';
+    src: url('../fonts/rubik-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 html {
     --color-surface: #f0f0f0;
@@ -24,10 +41,11 @@ html {
     --background-color: var(--color-surface);
     --foreground-color: var(--color-light);
 
-    --font-regular: 'poppinsregular', Rubik, sans-serif;
+    --font-regular: 'poppinsregular', 'rubik', sans-serif;
+    --font-light: 'poppinslight', var(--font-regular);
     --font-bold: 'poppinsbold', var(--font-regular);
 
-    --rhythm: 1.5rem;
+    --rhythm: 2rem;
 
 }
 
@@ -39,11 +57,10 @@ body {
     margin: 0;
     background-color: var(--background-color);
     color: var(--foreground-color);
-    font-family: 'poppinsregular';
+    font-size: 1rem;
 }
 
-
-
+/* nav bar */
 .logo {
     height: 45px;
     width: 45px;
@@ -69,14 +86,82 @@ body {
     width: 100%;
 }
 
+/* body */
+img {
+    height: 200px;
+    border: 1px solid var(--foreground-color);
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+
+}
+
+.aboutme {
+    padding: 2.5rem;
+    padding-top: 0;
+    font-family: var(--font-light);
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    line-height: var(--rhythm);
+    text-wrap: pretty;
+}
+
+img + p {
+    padding-top: 1.5rem;
+}
+
+p + h2, ul + h2, div + h2 {
+    margin-top: 2.5rem;
+}
+
+ul {
+    margin: 0;
+    padding: 1rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: var(--foreground-color);
+    text-decoration: none;
+    line-height: 2rem;
+    font-family: var(--font-regular);
+}
+
+.link {
+    margin: 2rem;
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: var(--foreground-color);
+    border: 1px solid var(--foreground-color);
+    padding: 1rem;
+    margin: 3rem auto;
+    font-family: var(--font-light);
+}
+
+
+
+/* menu */
 .menu {
     height: 100vh;
     width: 100%;
     background-color: var(--foreground-color);
     color: var(--background-color);
     padding-top: 50%;
-    padding-bottom: 50%;
-    
+    padding-bottom: 50%;  
 }
 
 .menu ul {
@@ -91,7 +176,7 @@ body {
 }
 
 .menu li a {
-    font-family: 'poppinsbold';
+    font-family: var(--font-bold);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
@@ -99,7 +184,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--background-color);
-    list-style-type: none;
     text-align: center;
 }
 

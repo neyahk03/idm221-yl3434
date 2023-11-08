@@ -57,10 +57,10 @@ body {
     margin: 0;
     background-color: var(--background-color);
     color: var(--foreground-color);
+    font-size: 1rem;
 }
 
-
-/* nav bar*/
+/* nav bar */
 .logo {
     height: 45px;
     width: 45px;
@@ -72,6 +72,7 @@ body {
 .hamb {
     width: 50px;
     float: right;
+    
 }
 
 .line {
@@ -79,55 +80,16 @@ body {
     margin: 10px;
 }
 
-nav {
-    position: absolute;
-    float: left;
-
-    /*background-color: blue;*/
-    padding: var(--rhythm);
-    margin: auto;
-    width: 100%;
-    z-index: 2;
-}
-
 .container {
-    /*background-color: pink;
-    padding: var(--rhythm);*/
-    margin: 0 auto;
-    height: 100vh;
-    width: 100%;
-
-    position: relative;
-}
-
-.intro {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    display: table-cell;
-    vertical-align: middle;
     padding: var(--rhythm);
-
-    font-size: 1rem;
-    font-family: var(--font-bold);
-    line-height: 2rem;
-
-    position: relative;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
-p, h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-family: var(--font-regular);
-}
-
-h1 {
-    font-size: 4rem;
-    font-style: italic;
-    padding-top: 2rem;
-    font-family: var(--font-bold);
-    line-height: 4rem;
+.contact {
+    height: 100vh;
+    padding: 2.5rem;
 }
 
 /* menu */
@@ -137,8 +99,7 @@ h1 {
     background-color: var(--foreground-color);
     color: var(--background-color);
     padding-top: 50%;
-    padding-bottom: 50%;
-    
+    padding-bottom: 50%;  
 }
 
 .menu ul {
@@ -153,7 +114,7 @@ h1 {
 }
 
 .menu li a {
-    font-family: var(--font-regular);
+    font-family: var(--font-bold);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
@@ -161,7 +122,6 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--background-color);
-    list-style-type: none;
     text-align: center;
 }
 
@@ -170,6 +130,3 @@ h1 {
     color: var(--background-color);
     text-align: center;
 }
-
-
-
