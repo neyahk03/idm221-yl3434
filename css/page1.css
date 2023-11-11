@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    padding: 2rem;
+}
+img {
+    height: 20rem;
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}

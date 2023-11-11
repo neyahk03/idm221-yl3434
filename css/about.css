@@ -80,14 +80,14 @@ body {
     margin: 10px;
 }
 
-.container {
+.navbar {
     padding: var(--rhythm);
     margin: 0 auto;
     width: 100%;
 }
 
 /* body */
-img {
+img.profile {
     height: 200px;
     border: 1px solid var(--foreground-color);
     border-radius: 50%;
@@ -106,15 +106,48 @@ h2 {
     text-align: center;
     font-family: var(--font-bold);
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
-p {
-    line-height: var(--rhythm);
-    text-wrap: pretty;
+h3 {
+    margin: 0;
+    display: inline;
 }
 
+h3 + p {
+    line-height: 1.5rem;
+    font-size: 0.85rem;
+    margin: 0;
+    display: inline;
+    float: right;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.degree {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1rem;
+}
+
+.skill {
+    font-family: var(--font-bold);
+    display: inline;
+}
+
+p, .jd li {
+    line-height: var(--rhythm);
+    text-wrap: pretty;
+    margin: 0;
+}
+
+p + p {
+    margin-top: 1rem;
+}
 img + p {
     padding-top: 1.5rem;
 }
@@ -123,20 +156,24 @@ p + h2, ul + h2, div + h2 {
     margin-top: 2.5rem;
 }
 
-ul {
+.projects {
     margin: 0;
     padding: 1rem;
 }
 
-ul li {
+ul.projects li {
     list-style-type: none;
 }
 
-ul li a {
+ul.projects li a {
     color: var(--foreground-color);
     text-decoration: none;
     line-height: 2rem;
     font-family: var(--font-regular);
+    display: block;
+    margin: 1rem 0;
+    border: 1px solid var(--foreground-color);
+    padding: 1rem;
 }
 
 .link {
@@ -152,6 +189,16 @@ ul li a {
     font-family: var(--font-light);
 }
 
+.social {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.contact {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+}
 
 
 /* menu */
@@ -161,7 +208,8 @@ ul li a {
     background-color: var(--foreground-color);
     color: var(--background-color);
     padding-top: 50%;
-    padding-bottom: 50%;  
+    padding-bottom: 50%;
+    
 }
 
 .menu ul {
@@ -176,7 +224,7 @@ ul li a {
 }
 
 .menu li a {
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
@@ -184,6 +232,7 @@ ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--background-color);
+    list-style-type: none;
     text-align: center;
 }
 

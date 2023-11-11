@@ -82,7 +82,7 @@ body {
     margin: 10px;
 }
 
-.container {
+.navbar {
     padding: var(--rhythm);
     margin: 0 auto;
     width: 100%;
