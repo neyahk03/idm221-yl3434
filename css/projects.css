@@ -71,21 +71,26 @@ body {
     display: inline-block;
 }
 
-.hamb {
-    width: 50px;
+.hamb img{
+    width: 45px;
     float: right;
-    
+    height: 45px;
 }
 
-.line {
-    border-bottom: 1px solid var(--foreground-color);
-    margin: 10px;
-}
 
 .navbar {
     padding: var(--rhythm);
     margin: 0 auto;
     width: 100%;
+}
+.navbar {
+    /*background-color: pink;
+    padding: var(--rhythm);*/
+    margin: 0 auto;
+
+    width: 100%;
+
+    position: relative;
 }
 
 /* projects */
@@ -93,36 +98,66 @@ h2 {
     text-align: center;
     font-family: var(--font-bold);
     text-transform: uppercase;
-    font-size: 2.5rem;
-    margin: 1rem;
+    font-size: 2rem;
+    margin: 2rem;
+
 }
 
+/* 
 .projects {
-
     border: 5px dashed pink;
 }
+*/
 
 img {
     height: 20rem;
     height: 20rem;
     margin: 0 auto;
+    margin-top: 1rem;
+    display: block;
 } 
 
 .coverpic {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
     min-width: 20rem;
 }
 
-.title, .coverpic{
-    font-family: var(--font-regular);
-    font-size: 2rem;
-    margin: 0;
-    padding: 1rem;
-    text-align: center;
+.coverpic a {
+    line-height: 2rem;
 }
 
+.title {
+    display: block;
+    font-family: var(--font-regular);
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+    padding-top: 0.75rem;
+
+    color: var(--foreground-color);
+    text-decoration: none;
+    text-wrap: pretty;
+}
+
+
 /* menu */
+.back img {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+
+div.back {
+    width: 100%;
+    display: block;
+    z-index: 2;
+    padding: var(--rhythm);
+
+    position: absolute;
+}
+
 .menu {
     height: 100vh;
     width: 100%;
@@ -144,7 +179,7 @@ img {
 }
 
 .menu li a {
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
@@ -160,3 +195,27 @@ img {
     color: var(--background-color);
     text-align: center;
 }
+
+/*
+.navbar nav {
+    position: absolute;
+    float: left;
+
+
+    padding: var(--rhythm);
+    margin: auto;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    
+    padding: var(--rhythm);
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+
+*/
