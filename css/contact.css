@@ -58,6 +58,7 @@ body {
     background-color: var(--background-color);
     color: var(--foreground-color);
     font-size: 1rem;
+    font-family: var(--font-light);
 }
 
 /* nav bar */

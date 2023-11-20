@@ -58,6 +58,7 @@ body {
     background-color: var(--background-color);
     color: var(--foreground-color);
     font-size: 1rem;
+    
 }
 
 
@@ -103,17 +104,12 @@ h2 {
 
 }
 
-/* 
-.projects {
-    border: 5px dashed pink;
-}
-*/
 
 img {
     height: 20rem;
     height: 20rem;
     margin: 0 auto;
-    margin-top: 1rem;
+
     display: block;
 } 
 
@@ -121,6 +117,7 @@ img {
     /* border: 1px solid green; */
     margin: 0 auto;
     min-width: 20rem;
+    margin-top: 1rem;
 }
 
 .coverpic a {

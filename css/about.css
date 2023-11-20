@@ -51,6 +51,7 @@ html {
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
     background-color: var(--background-color);
     color: var(--foreground-color);
     font-size: 1rem;
+    font-family: var(--font-light);
 }
 
 /* nav bar */
@@ -84,8 +86,8 @@ body {
 
 /* body */
 img.profile {
-    height: 200px;
-    border: 1px solid var(--foreground-color);
+    width: 90%;
+    max-width: 500px;
     border-radius: 50%;
     margin: 1rem auto;
     display: block;
@@ -95,7 +97,7 @@ img.profile {
 .aboutme {
     padding: 2.5rem;
     padding-top: 0;
-    font-family: var(--font-light);
+    
 }
 
 h2 {
@@ -144,6 +146,7 @@ p, .jd li {
 p + p {
     margin-top: 1rem;
 }
+
 img + p {
     padding-top: 1.5rem;
 }

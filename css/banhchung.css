@@ -51,6 +51,7 @@ html {
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -61,8 +62,7 @@ body {
     font-family: var(--font-light);
 }
 
-
-/* nav bar*/
+/* nav bar */
 .logo {
     height: 45px;
     width: 45px;
@@ -71,66 +71,60 @@ body {
     display: inline-block;
 }
 
-.hamb img {
+.hamb img{
     width: 45px;
     float: right;
+    
 }
 
-.navbar nav {
-    position: absolute;
-    float: left;
-
-    /*background-color: blue;*/
-    padding: var(--rhythm);
-    margin: auto;
-    width: 100%;
-    z-index: 2;
-}
 
 .navbar {
-    /*background-color: pink;
-    padding: var(--rhythm);*/
+    padding: var(--rhythm);
     margin: 0 auto;
-    height: 100vh;
     width: 100%;
-
-    position: relative;
 }
 
 /*body*/
 
-.intro {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    display: table-cell;
-    vertical-align: middle;
-    padding: var(--rhythm);
 
-    font-size: 1rem;
+h2 {
+    text-align: center;
     font-family: var(--font-bold);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 2rem;
     line-height: 2rem;
-
-    position: relative;
+    margin-top: 0;
 }
 
-
-p, h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-family: var(--font-regular);
+/*previous - next*/
+.option {
+    margin: 2rem;
 }
 
-h1 {
-    font-size: 4rem;
-    font-style: italic;
-    padding-top: 2rem;
+.option a {
+    text-decoration: none;
+    color: var(--foreground-color);
+}
+
+a:nth-child(2) {
+    float: right;
+}
+
+h3 {
     font-family: var(--font-bold);
-    line-height: 4rem;
+    display: inline;
 }
+
+.option img {
+    width: 1.5rem;
+    display: inline;
+    vertical-align: middle;
+
+}
+
 
 /* menu */
-
 .back img {
     width: 45px;
     height: 45px;
@@ -185,6 +179,3 @@ div.back {
     color: var(--background-color);
     text-align: center;
 }
-
-
-
