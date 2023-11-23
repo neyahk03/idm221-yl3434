@@ -85,7 +85,9 @@ body {
 }
 
 /*body*/
-
+.inside {
+    margin: 2.5rem;
+}
 
 h2 {
     text-align: center;
@@ -95,6 +97,21 @@ h2 {
     margin: 2rem;
     line-height: 2rem;
     margin-top: 0;
+}
+
+/* circle */
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin: 2.5rem;
+    border-radius: 50%;
+
+
+    left: 300px;
+    position: fixed;
+    bottom: 2.5rem;
+    z-index: 0;
 }
 
 /*previous - next*/
@@ -134,7 +151,7 @@ h3 {
 div.back {
     width: 100%;
     display: block;
-    z-index: 2;
+    z-index: 40;
     padding: var(--rhythm);
 
     position: absolute;
@@ -148,6 +165,8 @@ div.back {
     padding-top: 50%;
     padding-bottom: 50%;
     
+    z-index: 30;
+    position: relative;
 }
 
 .menu ul {
