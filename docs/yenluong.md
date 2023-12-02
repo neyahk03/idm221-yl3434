@@ -8,7 +8,7 @@
     * [IDLES Band Poster](#IDLES)
     * [Banh Chung: A Culinary Journey into Vietnamese Heritage](#brochure)
     * [Authentic Vietnamese Menu Design Kit](#menu)
-    * [Boba Shop Brand Identity Redesign](#logo)
+    * [Boba Shop Logo Redesign](#logo)
     * [BobyButterman Style Guide Redesign](#styleguide)
     * [Candy Land Weather App - Bringing Sweet Forecasts to Life](#weatherapp)
     * [Enchanting Goblincore Ceramic Store Website](#webdesign)
@@ -67,7 +67,7 @@ The menu is designed in an organized manner, with clear sections and easy-to-rea
 
 In conclusion, this project focuses on creating a menu design that effectively represents the authentic Vietnamese cuisine served by the restaurant. With a clean layout and minimalist approach, the design offers a visually pleasing and user-friendly menu experience for diners, reflecting the restaurant's commitment to providing an authentic taste of Vietnam.
 
-### Boba Shop Brand Identity Redesign <a id="logo"></a>
+### Boba Shop Logo Redesign <a id="logo"></a>
 
 ![TeaStation](<project/business card-logo design.jpg>)
 
