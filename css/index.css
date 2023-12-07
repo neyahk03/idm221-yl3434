@@ -126,7 +126,7 @@ body {
     vertical-align: middle;
     padding: var(--rhythm);
 
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: var(--font-bold);
     line-height: calc(2.25*var(--rhythm));
 
