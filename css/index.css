@@ -35,22 +35,36 @@
 
 @font-face {
     font-family: 'spacegroteskbold';
-    src: url(../fonts/SpaceGrotesk-Bold.ttf) format('ttf');
-    font-weight: bold;
+    src: url('../fonts/spacegrotesk-bold-webfont.woff2') format('woff2'),
+         url('../fonts/spacegrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+
 }
+
+@font-face {
+    font-family: 'delagothicone';
+    src: url('../fonts/delagothicone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/delagothicone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 html {
     --color-surface: #f0f0f0;
     --color-light: #333333;
+    --color-accent-pink: #e80f8b;
+    --color-accent-yellow: #fbcd2c;
 
     --background-color: var(--color-surface);
     --foreground-color: var(--color-light);
 
     --font-regular: 'poppinsregular', 'rubik', sans-serif;
     --font-light: 'poppinslight', var(--font-regular);
-    --font-bold: 'spacegroteskbold', var(--font-regular);
+    --font-bold: 'delagothicone', var(--font-regular);
 
     --rhythm: 2rem;
 
@@ -64,15 +78,14 @@ body {
     margin: 0;
     background-color: var(--background-color);
     color: var(--foreground-color);
-    font-size: 1rem;
-    font-family: var(--font-light);
+
+    text-wrap: pretty;
 }
 
 
 /* nav bar*/
 .logo img {
-    height: 36px;
-    width: 45px;
+    height: 45px;
     display: inline-block;
 }
 
@@ -113,19 +126,23 @@ body {
     vertical-align: middle;
     padding: var(--rhythm);
 
-    font-size: 1rem;
+    font-size: 5rem;
     font-family: var(--font-bold);
-    line-height: 2rem;
+    line-height: calc(2.25*var(--rhythm));
 
     position: relative;
 }
 
-
-p, h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-family: var(--font-regular);
+p {
+    text-wrap: pretty;
 }
+
+.intro p a{
+    color: var(--color-accent-pink);
+    text-decoration: none;
+}
+
+
 
 h1 {
     font-size: 4rem;
@@ -146,7 +163,7 @@ h1 {
 div.back {
     width: 100%;
     display: block;
-    z-index: 2;
+    z-index: 20;
     padding: var(--rhythm);
 
     position: absolute;
@@ -156,9 +173,9 @@ div.back {
     height: 100vh;
     width: 100%;
     background-color: var(--foreground-color);
-    color: var(--background-color);
-    padding-top: 50%;
-    padding-bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -174,21 +191,21 @@ div.back {
 }
 
 .menu li a {
-    font-family: var(--font-regular);
+    font-family: var(--font-bold);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--color-accent-yellow);
     list-style-type: none;
     text-align: center;
 }
 
 .menu li a:visited {
     list-style-type: none;
-    color: var(--background-color);
+    color: var(--color-accent-yellow);
     text-align: center;
 }
 
