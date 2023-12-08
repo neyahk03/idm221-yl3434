@@ -60,7 +60,7 @@ html {
     --foreground-color: var(--color-light);
 
     --font-regular: 'poppinsregular', 'rubik', sans-serif;
-    --font-light: 'poppinslight', var(--font-regular);
+    --font-light: 'spacegroteskbold', var(--font-regular);
     --font-bold: 'delagothicone', var(--font-regular);
 
     --rhythm: 2rem;
@@ -113,9 +113,10 @@ h2 {
     text-align: center;
     font-family: var(--font-bold);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 2rem;
     margin-top: 0;
+    color: var(--color-light);
 }
 
 
@@ -131,7 +132,8 @@ img {
     /* border: 1px solid green; */
     margin: 0 auto;
     min-width: 20rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+
 }
 
 .coverpic img:last-of-type {
@@ -142,19 +144,38 @@ img {
     line-height: 2rem;
 }
 
-.title {
+.link {
+    margin: 2rem;
+    color: var(--color-light);
+    font-family: var(--font-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: var(--font-bold);
+    font-size: 1.5rem;
+    text-wrap: pretty;
+}
+
+.link a img {
+    width: 45px;
+}
+
+/*.title {
     display: block;
-    font-family: var(--font-regular);
-    font-size: 1.25rem;
+    font-family: var(--font-bold);
+    font-size: 1.5rem;
     margin: 0;
     padding: 1.5rem;
-    text-align: center;
+    padding-bottom: 0.5rem;
     padding-top: 0.75rem;
 
     color: var(--foreground-color);
     text-decoration: none;
     text-wrap: pretty;
-}
+}*/
 
 
 /* menu */
@@ -195,20 +216,20 @@ div.back {
 }
 
 .menu li a {
-    font-family: var(--font-regular);
+    font-family: var(--font-bold);
     margin: auto;
     width: 100%;
     line-height: calc(4*var(--rhythm));
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--color-accent-yellow);
     text-align: center;
 }
 
 .menu li a:visited {
     list-style-type: none;
-    color: var(--background-color);
+    color: var(--color-accent-yellow);
     text-align: center;
 }
 
