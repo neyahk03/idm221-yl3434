@@ -125,8 +125,9 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: var(--rhythm);
+    text-wrap: pretty;
 
-    font-size: 4.5rem;
+    font-size: 3.25rem;
     font-family: var(--font-bold);
     line-height: calc(2.25*var(--rhythm));
 
