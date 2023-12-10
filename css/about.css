@@ -215,6 +215,7 @@ ul.projects li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-transform: capitalize;
 }
 
 ul.projects li img {

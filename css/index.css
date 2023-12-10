@@ -127,9 +127,9 @@ body {
     padding: var(--rhythm);
     text-wrap: pretty;
 
-    font-size: 3.25rem;
+    font-size: 3.3rem;
     font-family: var(--font-bold);
-    line-height: calc(2.25*var(--rhythm));
+    line-height: calc(2*var(--rhythm));
 
     position: relative;
 }
