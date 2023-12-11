@@ -127,7 +127,7 @@ body {
     padding: var(--rhythm);
     text-wrap: pretty;
 
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-family: var(--font-bold);
     line-height: calc(2*var(--rhythm));
 

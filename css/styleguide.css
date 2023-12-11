@@ -125,7 +125,6 @@ strong {
 
 .pic {
     width: 100%;
-    margin: 2rem 0;
 }
 
 figure img.pic {
@@ -143,6 +142,10 @@ p {
     margin: 0 2.5rem;
     text-wrap: pretty;
     line-height: 2rem;
+}
+
+img + img {
+    margin: 0.5rem 0;
 }
 
 /*previous - next*/

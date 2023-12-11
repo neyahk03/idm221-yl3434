@@ -145,8 +145,8 @@ p {
     line-height: 2rem;
 }
 
-p.description + p.description {
-    margin-top: 1rem;
+.description + .description {
+    margin-top: 2rem;
 }
 
 /*previous - next*/

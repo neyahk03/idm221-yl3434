@@ -103,6 +103,16 @@ body {
 }
 
 /* body */
+
+.arrow {
+    position: absolute;
+    z-index: 30;
+    width: 60px;
+    right: 40px;
+    top: 210px;
+    transform: rotate(5deg);
+}
+
 img.profile {
     width: 90%;
     max-width: 500px;
@@ -153,7 +163,6 @@ h1 strong {
 h3, p.skill{
     margin: 0;
     display: inline;
-    text-decoration:  var(--color-accent-pink) 2px wavy underline;
 }
 
 p.degree + ul {
