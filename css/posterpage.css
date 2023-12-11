@@ -134,7 +134,7 @@ strong {
 
 p {
     margin: 0 2.5rem;
-    text-wrap: pretty;
+    word-wrap: break-word;
     line-height: 1.5rem;
 }
 

@@ -79,7 +79,7 @@ body {
     background-color: var(--background-color);
     color: var(--foreground-color);
 
-    text-wrap: pretty;
+    word-wrap: break-word;
 }
 
 
@@ -125,8 +125,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: var(--rhythm);
-    text-wrap: pretty;
-
+    word-wrap: break-word;
     font-size: 3rem;
     font-family: var(--font-bold);
     line-height: calc(2*var(--rhythm));
@@ -135,7 +134,7 @@ body {
 }
 
 p {
-    text-wrap: pretty;
+    word-wrap: break-word;
 }
 
 .intro p a{

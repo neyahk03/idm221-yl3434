@@ -117,7 +117,7 @@ h2 {
     margin: 2rem;
     margin-top: 0;
     color: var(--color-light);
-    text-wrap: pretty;
+    word-wrap: break-word;
 }
 
 img {
@@ -156,7 +156,7 @@ img {
     margin: 0;
     font-family: var(--font-bold);
     font-size: 1.5rem;
-    text-wrap: pretty;
+    word-wrap: break-word;
 }
 
 .link a img {
@@ -174,7 +174,7 @@ img {
 
     color: var(--foreground-color);
     text-decoration: none;
-    text-wrap: pretty;
+    word-wrap: break-word;
 }*/
 
 

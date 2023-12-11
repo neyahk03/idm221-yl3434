@@ -195,7 +195,7 @@ h3 + p {
 
 p, .jd li {
     line-height: var(--rhythm);
-    text-wrap: pretty;
+    word-wrap: break-word;
     margin: 0;
 }
 
